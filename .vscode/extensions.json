@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-complete-tag",
+        "xabikos.javascriptsnippets",
+        "thekalinga.bootstrap4-vscode",
+        "adpyke.codesnap",
+        "mrmlnc.vscode-scss",
+        "streetsidesoftware.code-spell-checker",
+        "dbaeumer.vscode-eslint",
+        "usernamehw.errorlens"
+    ]
+}
