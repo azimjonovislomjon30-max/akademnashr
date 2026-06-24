@@ -1,0 +1,55 @@
+.site-header {
+  background-color: #ffffff;
+}
+
+.sitenav-link {
+  font-weight: 500px;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+.main-link {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  background-color: #ff7500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.hero {
+  background-color: #252420;
+  color: #ffffff;
+}
+.hero-content {
+  width: 390px;
+}
+.orange-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+.hero-heading {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+
+}
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.hero-img {
+  width: 510px;
+  height: 510px;
+}
+.features-heading {
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
