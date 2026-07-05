@@ -7,9 +7,18 @@ body {
   letter-spacing: 0.5px;
 }
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #ffffff;
 }
+.site-header-actions {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
 .sitenav-list {
+  display: flex;
   list-style: none;
 }
 .sitenav-link {
@@ -31,6 +40,9 @@ body {
   color: #ffffff;
 }
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #ffffff;
 }
@@ -59,6 +71,11 @@ body {
   letter-spacing: 0.5px;
   font-family: "Roboto Condensed", "Roboto" sans-serif;
 }
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
 .features-text {
   width: 440px;
   font-size: 16px;
@@ -77,6 +94,9 @@ body {
   font-family: "Roboto Condensed", "Roboto" sans-serif;
 }
 .promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #ffffff;
 }
@@ -101,12 +121,24 @@ body {
 .site-footer {
   background-color: #f8f8f8;
 }
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-footer-socials {
+  display: flex;
+  align-items: center;
+}
 .site-footer ul {
   list-style: none;
 }
 .site-footer-divider {
   height: 2px;
   background-color: rgb(37, 36, 32, 0.5);
+}
+.site-footer-bottom {
+  display: flex;
 }
 .site-footer-link-list {
   width: 224px;
