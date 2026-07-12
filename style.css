@@ -226,7 +226,11 @@ body {
   margin-right: 0;
 }
 .site-footer-socials a {
+  display: block;
   color: #252520;
+}
+.site-footer-socials a svg {
+  display: block;
 }
 .site-footer-socials a:hover {
   color: #ff7500;
