@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- styles -->
+     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,10 +21,10 @@
         <div class="site-header-actions">
             <nav>
                 <ul class="sitenav-list">
-                    <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-                    <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-                    <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-                    <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
                 </ul>
             </nav>
             <li><a class="main-link" href="https://t.me//IT_need">Ro'yxatdan o'tish</a></li>
@@ -90,12 +91,14 @@
                 <h2 class="promo-heading">
                     Bolalar kitoblari uchun ajoyib aksiya!
                 </h2>
-                <p class="promo-text">
-                    Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.
-                </p>
-                <p class="promo-text">
-                    Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ни <strong class="promo-highlight">350 ming</strong> so’mга (aslida 383 ming so’m) sotib olishingiz mumkin.
-                </p>
+                <div class="promo-info-wrapper">
+                    <p class="promo-text">
+                        Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.
+                    </p>
+                    <p class="promo-text">
+                        Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ни <strong class="promo-highlight">350 ming</strong> so’mга (aslida 383 ming so’m) sotib olishingiz mumkin.
+                    </p>
+                </div>
                 <a href="#" class="main-link">Buyurtma berish</a>
             </div>
             <!-- Aksiyadagi kitoblar ro'yhati -->
